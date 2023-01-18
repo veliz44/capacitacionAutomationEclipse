@@ -66,7 +66,6 @@ public class Asignación6 {
 		
 		driver.findElement(By.xpath("//button[@id='finish']")).click();
 		CapturaEvidencia.capturarPantallaEnDocumento(driver, rutaEvidencia + "img.jpg", rutaEvidencia + nombreDocumento, "Compra Finalizada");
-		
 	}
 	
 	@DataProvider(name="Datos Login")
